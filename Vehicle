@@ -1,0 +1,47 @@
+public class Vehicle {
+    public String vehicleName;
+    private int wheelsNumber;
+    private int doors;
+    private int motorPower;
+    private String color;
+
+    //constructor .. it is defined with the class name
+    public Vehicle () {
+
+    }
+
+
+    public static void main(String [] args) {
+        Account acc1 = new Account();
+        acc1.Deposit(55);
+        System.out.println(acc1.getAmount());
+    }
+
+    public void setWheelsNumber (int num) {
+        wheelsNumber = num;
+    }
+    public void setDoors (int num) {
+        doors = num;
+    }
+    public void setMotorPower (int num) {
+        motorPower = num;
+    }
+    public void setColor (String color) {
+        this.color = color;
+    }
+
+    public int getWheelsNumber (){
+        return wheelsNumber;
+    }
+    public int getDoors (){
+        return doors;
+    }
+    public int getMotorPower (){
+        return motorPower;
+    }
+    public String getColor (){
+        return color;
+    }
+
+
+}
